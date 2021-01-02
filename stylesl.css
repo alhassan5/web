@@ -62,7 +62,7 @@ body {
   height: 100vh;
   z-index: 1;
 }
-.slideshow .slideshoww-inner {
+.slideshow .slideshow-inner {
   position: absolute;
   top: 0;
   left: 0;
