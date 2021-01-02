@@ -35,7 +35,7 @@ body {
 .btnn::after {
   transition: border 0.1s linear 0.05s;
 }
-.btnn .btn-inner {
+.btnn .btnn-inner {
   position: relative;
   z-index: 2;
 }
