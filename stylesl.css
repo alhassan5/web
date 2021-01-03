@@ -151,11 +151,11 @@ body {
   font-size: 18px;
   line-height: 1.4;
 }
-.slideshow .slide .btnn {
+.slideshow .slide .btn {
   margin: 15px 0 0;
   border-color: #fff;
 }
-.slideshow .slide .btnn::before {
+.slideshow .slide .btn::before {
   background: #fff;
 }
 .slideshow .pagination {
