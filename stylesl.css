@@ -56,7 +56,7 @@ body {
 }
 
 .slideshow {
-  align: center;
+ left: 50%;
   overflow: hidden;
   position: relative;
   width: 1280px;
