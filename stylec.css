@@ -606,7 +606,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #featured-servicesc {
-  background-image:#000;
+ background: #000;
 }
 
 #featured-servicesc .box {
