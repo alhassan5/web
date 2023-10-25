@@ -59,7 +59,7 @@ body {
   left: 50%;
   
   overflow: hidden;
-  position: absolute;
+  position: relative;
   width: 1280px;
   height: 305px;
   z-index: 1;
