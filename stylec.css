@@ -637,7 +637,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #featured-servicesc h4 a {
-  color: #fff;
+  color: #000;
 }
 
 #featured-servicesc h4 a:hover {
@@ -647,7 +647,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #featured-servicesc p {
   font-size: 14px;
   line-height: 24px;
-  color: #fff;
+  color: #000;
   margin-bottom: 0;
 }
 
