@@ -59,7 +59,7 @@ body {
   align: center;
   overflow: hidden;
   position: relative;
-  width: 1080px;
+  width: 1280px;
   height: 305px;
   z-index: 1;
 }
@@ -67,14 +67,14 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1080px;
+  width: 1280px;
   height: 305px;
 }
 .slideshow .slides {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1080px;
+  width: 1280px;
   height: 305px;
   z-index: 1;
 }
@@ -84,7 +84,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1080px;
+  width: 1280px;
   height: 305px;
   z-index: 1;
   opacity: 0;
@@ -103,7 +103,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1080px;
+  width: 1280px;
   height: 305px;
   background-position: center;
   z-index: 1;
@@ -116,19 +116,19 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1080px;
+  width: 1280px;
   height: 305px;
   
 }
 .slideshow .slide .image {
-  width: 1080px;
+  width: 1280px;
   height: 305px;
 }
 .slideshow .slide-content {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1080px;
+  width: 1280px;
   height: 305px;
   z-index: 2;
   color: #fff;
