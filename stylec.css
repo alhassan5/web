@@ -606,7 +606,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #featured-servicesc {
- background: #c6c6c6;
+ background: #ededed;
 }
 
 #featured-servicesc .box {
@@ -614,7 +614,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #featured-servicesc .box-bg {
-  background: radial-gradient(circle, rgba(198,198,198,1) 0%, rgba(255,255,255,1) 91%, rgba(228,228,228,1) 100%);
+  background: #f9f9f9;
 }
 
 #featured-servicesc i {
