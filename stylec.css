@@ -606,7 +606,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #featured-servicesc {
- background: #000;
+ background: #c6c6c6;
 }
 
 #featured-servicesc .box {
@@ -614,7 +614,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #featured-servicesc .box-bg {
-  background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);;
+  background: radial-gradient(circle, rgba(198,198,198,1) 0%, rgba(255,255,255,1) 91%, rgba(228,228,228,1) 100%);
 }
 
 #featured-servicesc i {
@@ -637,7 +637,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #featured-servicesc h4 a {
-  color: #fff;
+  color: #000;
 }
 
 #featured-servicesc h4 a:hover {
@@ -647,7 +647,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #featured-servicesc p {
   font-size: 14px;
   line-height: 24px;
-  color: #fff;
+  color: #000;
   margin-bottom: 0;
 }
 
