@@ -557,6 +557,9 @@
 .fa-twitter-square:before {
   content: "\f081";
 }
+.fa-x-twitter-square:before {
+  content: "\e61b";
+}
 .fa-facebook-square:before {
   content: "\f082";
 }
@@ -626,6 +629,9 @@
 }
 .fa-twitter:before {
   content: "\f099";
+}
+.fa-x-twitter:before {
+  content: "\e61b";
 }
 .fa-facebook-f:before,
 .fa-facebook:before {
