@@ -3,7 +3,7 @@ body {
   letter-spacing: 0.05em;
 }
 
-.btnn {
+.btnn1 {
   display: inline-block;
   padding: 13px 20px;
   color: #fff;
@@ -19,7 +19,7 @@ body {
   text-transform: uppercase;
   transition: color 0.4s linear 0.05s;
 }
-.btnn::before {
+.btnn1::before {
   content: "";
   display: block;
   position: absolute;
@@ -32,25 +32,25 @@ body {
   opacity: 0;
   transition: height 0.2s ease, top 0.2s ease, opacity 0s linear 0.2s;
 }
-.btnn::after {
+.btnn1::after {
   transition: border 0.1s linear 0.05s;
 }
-.btnn .btnn-inner {
+.btnn1 .btnn1-inner {
   position: relative;
   z-index: 2;
 }
-.btnn:hover {
+.btnn1:hover {
   color: #2a9d8f;
   transition: color 0.1s linear 0s;
 }
-.btnn:hover::before {
+.btnn1:hover::before {
   top: 0;
   height: 100%;
   border-radius: 50px 50px;
   opacity: 1;
   transition: height 0.2s ease, top 0.2s ease, opacity 0s linear 0s;
 }
-.btnn:hover::after {
+.btnn1:hover::after {
   border-color: #373737;
   transition: border 0.1s linear 0s;
 }
