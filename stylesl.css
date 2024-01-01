@@ -92,10 +92,10 @@ body {
 .slideshow .slide.is-active {
   display: block;
 }
-.slideshow .slide.is-loaded1 {
+.slideshow .slide.is-loaded {
   opacity: 1;
 }
-.slideshow .slide .caption1 {
+.slideshow .slide .caption {
   padding: 0 100px;
 }
 .slideshow .slide .image-container {
