@@ -62,7 +62,7 @@ body {
   height: 305px;
   z-index: 1;
 }
-.slideshow1 .slideshow1-inner {
+.slideshow1 .slideshow1-inner1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -98,7 +98,7 @@ body {
 .slideshow1 .slide1 .caption1 {
   padding: 0 100px;
 }
-.slideshow1 .slide1 .image-container1 {
+.slideshow1 .slide1 .image1-container1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -109,7 +109,7 @@ body {
   background-size: cover;
   image-rendering: optimizeQuality;
 }
-.slideshow1 .slide1 .image-container1::before {
+.slideshow1 .slide1 .image1-container1::before {
   content: "";
   display: block;
   position: absolute;
