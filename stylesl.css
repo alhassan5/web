@@ -62,7 +62,7 @@ body {
   height: 305px;
   z-index: 1;
 }
-.slideshow1 .slideshow1-inner1 {
+.slideshow1 .slideshow1-inner {
   position: absolute;
   top: 0;
   left: 0;
@@ -89,7 +89,7 @@ body {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-.slideshow1 .slide1.is-active1 {
+.slideshow1 .slide1.is-active {
   display: block;
 }
 .slideshow1 .slide1.is-loaded1 {
@@ -123,7 +123,7 @@ body {
   width: 100%;
   height: 305px;
 }
-.slideshow1 .slide1-content1 {
+.slideshow1 .slide1-content {
   position: absolute;
   top: 0;
   left: 0;
@@ -197,7 +197,7 @@ body {
   z-index: 2;
   transition: width 0.2s ease;
 }
-.slideshow1 .pagination1 .item1:hover::before, .slideshow1 .pagination1 .item1.is-active1::before {
+.slideshow1 .pagination1 .item1:hover::before, .slideshow1 .pagination1 .item1.is-active::before {
   background-color: #fff;
 }
 .slideshow1 .arrows1 .arrow1 {
