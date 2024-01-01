@@ -3,7 +3,7 @@ body {
   letter-spacing: 0.05em;
 }
 
-.btnn1 {
+.btnn {
   display: inline-block;
   padding: 13px 20px;
   color: #fff;
@@ -19,7 +19,7 @@ body {
   text-transform: uppercase;
   transition: color 0.4s linear 0.05s;
 }
-.btnn1::before {
+.btnn::before {
   content: "";
   display: block;
   position: absolute;
@@ -32,44 +32,44 @@ body {
   opacity: 0;
   transition: height 0.2s ease, top 0.2s ease, opacity 0s linear 0.2s;
 }
-.btnn1::after {
+.btnn::after {
   transition: border 0.1s linear 0.05s;
 }
-.btnn1 .btnn1-inner {
+.btnn .btnn-inner {
   position: relative;
   z-index: 2;
 }
-.btnn1:hover {
+.btnn:hover {
   color: #2a9d8f;
   transition: color 0.1s linear 0s;
 }
-.btnn1:hover::before {
+.btnn:hover::before {
   top: 0;
   height: 100%;
   border-radius: 50px 50px;
   opacity: 1;
   transition: height 0.2s ease, top 0.2s ease, opacity 0s linear 0s;
 }
-.btnn1:hover::after {
+.btnn:hover::after {
   border-color: #373737;
   transition: border 0.1s linear 0s;
 }
 
-.slideshow1 {
+.slideshow {
   overflow: hidden;
   position: relative;
   width: 100%;
   height: 305px;
   z-index: 1;
 }
-.slideshow1 .slideshow1-inner {
+.slideshow .slideshow-inner {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 305px;
 }
-.slideshow1 .slides1 {
+.slideshow .slides {
   position: absolute;
   top: 0;
   left: 0;
@@ -77,7 +77,7 @@ body {
   height: 305px;
   z-index: 1;
 }
-.slideshow1 .slide1 {
+.slideshow .slide {
   display: none;
   overflow: hidden;
   position: absolute;
@@ -89,16 +89,16 @@ body {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-.slideshow1 .slide1.is-active {
+.slideshow .slide.is-active {
   display: block;
 }
-.slideshow1 .slide1.is-loaded1 {
+.slideshow .slide.is-loaded1 {
   opacity: 1;
 }
-.slideshow1 .slide1 .caption1 {
+.slideshow .slide .caption1 {
   padding: 0 100px;
 }
-.slideshow1 .slide1 .image1-container1 {
+.slideshow .slide .image-container {
   position: absolute;
   top: 0;
   left: 0;
@@ -109,7 +109,7 @@ body {
   background-size: cover;
   image-rendering: optimizeQuality;
 }
-.slideshow1 .slide1 .image1-container1::before {
+.slideshow .slide .image-container::before {
   content: "";
   display: block;
   position: absolute;
@@ -119,11 +119,11 @@ body {
   height: 305px;
   
 }
-.slideshow1 .slide1 .image1 {
+.slideshow .slide .image {
   width: 100%;
   height: 305px;
 }
-.slideshow1 .slide1-content {
+.slideshow .slide-content {
   position: absolute;
   top: 0;
   left: 0;
@@ -136,27 +136,27 @@ body {
   justify-content: center;
   align-items: center;
 }
-.slideshow1 .slide1 .title1 {
+.slideshow .slide .title {
   margin: 0 auto 15px;
   max-width: 1000px;
   font: 300 50px/1.2 "Oswald", sans-serif;
   letter-spacing: 0.35em;
   text-transform: uppercase;
 }
-.slideshow1 .slide1 .text1 {
+.slideshow .slide .text {
   margin: 0 auto;
   max-width: 1000px;
   font-size: 18px;
   line-height: 1.4;
 }
-.slideshow1 .slide1 .btn1 {
+.slideshow .slide .btn {
   margin: 15px 0 0;
   border-color: #fff;
 }
-.slideshow1 .slide1 .btn1::before {
+.slideshow .slide .btn::before {
   background: #fff;
 }
-.slideshow1 .pagination1 {
+.slideshow .pagination {
   position: absolute;
   bottom: 35px;
   left: 0;
@@ -166,7 +166,7 @@ body {
   z-index: 2;
   text-align: center;
 }
-.slideshow1 .pagination1 .item1 {
+.slideshow .pagination .item {
   display: inline-block;
   padding: 15px 5px;
   position: relative;
@@ -177,10 +177,10 @@ body {
   z-index: 1;
   text-align: center;
 }
-.slideshow1 .pagination1 .item1 + .page1 {
+.slideshow .pagination .item + .page {
   margin-left: -2px;
 }
-.slideshow1 .pagination1 .item1::before {
+.slideshow .pagination .item::before {
   content: "";
   display: block;
   position: absolute;
@@ -191,16 +191,16 @@ body {
   background: rgba(255, 255, 255, 0.5);
   transition: background 0.2s ease;
 }
-.slideshow1 .pagination1 .item1::after {
+.slideshow .pagination .item::after {
   width: 0;
   background: #fff;
   z-index: 2;
   transition: width 0.2s ease;
 }
-.slideshow1 .pagination1 .item1:hover::before, .slideshow1 .pagination1 .item1.is-active::before {
+.slideshow .pagination .item:hover::before, .slideshow .pagination .item.is-active::before {
   background-color: #fff;
 }
-.slideshow1 .arrows1 .arrow1 {
+.slideshow .arrows .arrow {
   margin: -33px 0 0;
   padding: 20px;
   position: absolute;
@@ -208,19 +208,19 @@ body {
   cursor: pointer;
   z-index: 3;
 }
-.slideshow1 .arrows1 .prev1 {
+.slideshow .arrows .prev {
   left: 30px;
 }
-.slideshow1 .arrows1 .prev1:hover .svg1 {
+.slideshow .arrows .prev:hover .svg {
   left: -10px;
 }
-.slideshow1 .arrows1 .next1 {
+.slideshow .arrows .next {
   right: 30px;
 }
-.slideshow1 .arrows1 .next1:hover .svg1 {
+.slideshow .arrows .next:hover .svg {
   left: 10px;
 }
-.slideshow1 .arrows1 .svg1 {
+.slideshow .arrows .svg {
   position: relative;
   left: 0;
   width: 14px;
